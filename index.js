@@ -168,7 +168,7 @@ async function install() {
   }
 
   spinner.start('downloading installation files');
-  download('Villarrealized/sonos-web', installPath, async (err) => {
+  download('stufisher/sonos-web#update_and_fix', installPath, async (err) => {
     // clear log file
     fs.writeFile(installLogFile, '');
 
